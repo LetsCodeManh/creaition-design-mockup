@@ -5,11 +5,8 @@ const Hero = () => {
     <section id="hero" className="text-center flex flex-col">
       <div className="flex flex-col gap-6 py-28">
         <div className="font-medium text-7xl uppercase flex flex-col gap-10 tracking-[2px]">
-          <p>
-            get inspired <br />
-          </p>
+          <p>get inspired</p>
           <p>by</p>
-
           <p>morph</p>
         </div>
         <h2 className="text-xl">
