@@ -1,5 +1,14 @@
+import Footer from "./components/Footer";
+import Navigation from "./components/Navigation";
+
 const App = () => {
-  return <main>Hi</main>;
-}
+  return (
+    <>
+      <Navigation />
+      <main>Hi</main>
+      <Footer />
+    </>
+  );
+};
 
 export default App;

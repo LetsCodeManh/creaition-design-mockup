@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 @font-face {
   font-family: "Eina03";
   font-display: swap;
@@ -5,8 +7,6 @@
   src: url("/src/assets/font/Eina03-Regular.084ad9bd755c32a2.ttf")
     format("truetype");
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
 @tailwind base;
 @tailwind components;
