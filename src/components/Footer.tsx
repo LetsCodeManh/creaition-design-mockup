@@ -19,7 +19,7 @@ const Footer = () => {
           ))}
         </div>
       </div>
-      <div className="flex justify-between py-16">
+      <div className="flex justify-between pt-16">
         <div className="flex flex-col gap-5 items-start">
           <h1 className="text-lg font-medium tracking-widest uppercase">
             ADDRESS

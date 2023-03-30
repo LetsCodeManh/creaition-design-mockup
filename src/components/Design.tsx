@@ -19,7 +19,7 @@ const Design = () => {
               type="range"
               min="0"
               max="100"
-              value="50"
+              defaultValue="50"
               className="w-[250px] h-[2px] appearance-none bg-black accent-black"
             />
             <label htmlFor="shapeOne">shape</label>
@@ -30,7 +30,7 @@ const Design = () => {
               type="range"
               min="0"
               max="100"
-              value="80"
+              defaultValue="80"
               className="w-[250px] h-[2px] appearance-none bg-black accent-black"
             />
             <label htmlFor="colorOne">color</label>
@@ -41,7 +41,7 @@ const Design = () => {
               type="range"
               min="0"
               max="100"
-              value="30"
+              defaultValue="30"
               className="w-[250px] h-[2px] appearance-none bg-black accent-black"
             />
             <label htmlFor="appearanceOne">apperance</label>
@@ -63,7 +63,7 @@ const Design = () => {
               type="range"
               min="0"
               max="100"
-              value="50"
+              defaultValue="50"
               className="w-[250px] h-[2px] appearance-none bg-black accent-black"
             />
             <label htmlFor="shapeTwo">shape</label>
@@ -74,7 +74,7 @@ const Design = () => {
               type="range"
               min="0"
               max="100"
-              value="80"
+              defaultValue="80"
               className="w-[250px] h-[2px] appearance-none bg-black accent-black"
             />
             <label htmlFor="colorTwo">color</label>
@@ -85,7 +85,7 @@ const Design = () => {
               type="range"
               min="0"
               max="100"
-              value="30"
+              defaultValue="30"
               className="w-[250px] h-[2px] appearance-none bg-black accent-black"
             />
             <label htmlFor="appearanceTwo">apperance</label>
@@ -107,7 +107,7 @@ const Design = () => {
               type="range"
               min="0"
               max="100"
-              value="50"
+              defaultValue="50"
               className="w-[250px] h-[2px] appearance-none bg-black accent-black"
             />
             <label htmlFor="shapeThree">shape</label>
@@ -118,7 +118,7 @@ const Design = () => {
               type="range"
               min="0"
               max="100"
-              value="80"
+              defaultValue="80"
               className="w-[250px] h-[2px] appearance-none bg-black accent-black"
             />
             <label htmlFor="colorThree">color</label>
@@ -129,12 +129,18 @@ const Design = () => {
               type="range"
               min="0"
               max="100"
-              value="30"
+              defaultValue="30"
               className="w-[250px] h-[2px] appearance-none bg-black accent-black"
             />
             <label htmlFor="appearanceThree">apperance</label>
           </div>
         </div>
+      </div>
+
+      <div className="flex gap-16"> 
+        <a href="/download" className="px-8 py-4 border-[1px] border-black hover:bg-black hover:text-white">Save</a>
+        <a href="#morph" className="px-8 py-4 border-[1px] border-black hover:bg-black hover:text-white">
+          Reset</a>
       </div>
     </section>
   );
