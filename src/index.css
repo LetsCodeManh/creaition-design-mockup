@@ -16,3 +16,19 @@ body {
   font-family: "Eina03", "Poppins", sans-serif;
   font-weight: 400;
 }
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-scrolling {
+  animation: scroll 1s ease-in-out infinite;
+}

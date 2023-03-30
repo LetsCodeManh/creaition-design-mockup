@@ -1,11 +1,14 @@
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
 
 const App = () => {
   return (
     <>
       <Navigation />
-      <main>Hi</main>
+      <main>
+        <Hero />
+      </main>
       <Footer />
     </>
   );
