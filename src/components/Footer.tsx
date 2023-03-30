@@ -28,7 +28,7 @@ const Footer = () => {
             <p>Hanauer Landstraße 150</p>
             <p>60314, Frankfurt am Main</p>
           </div>
-          <a className="py-3 px-4 bg-black text-white rounded-full uppercase border-transparent border-2 hover:border-black hover:text-black hover:bg-transparent" href="/googlemap">find on map</a>
+          <a className="py-3 px-4 bg-black text-white rounded-full uppercase border-transparent border-[1px] hover:border-black hover:text-black hover:bg-transparent" href="/googlemap">find on map</a>
         </div>
         <div className="flex flex-col gap-5">
           <h1 className="text-lg font-medium tracking-widest uppercase">

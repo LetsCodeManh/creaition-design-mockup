@@ -2,9 +2,9 @@ import MouseScrollDown from "./MouseScrollDown";
 
 const Hero = () => {
   return (
-    <div className="text-center flex flex-col">
+    <section id="hero" className="text-center flex flex-col">
       <div className="flex flex-col gap-6 py-28">
-        <div className="font-medium text-8xl uppercase flex flex-col gap-10 tracking-[2px]">
+        <div className="font-medium text-7xl uppercase flex flex-col gap-10 tracking-[2px]">
           <p>
             get inspired <br />
           </p>
@@ -18,7 +18,7 @@ const Hero = () => {
       </div>
 
       <MouseScrollDown />
-    </div>
+    </section>
   );
 };
 

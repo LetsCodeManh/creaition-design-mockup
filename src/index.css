@@ -12,6 +12,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Eina03", "Poppins", sans-serif;
   font-weight: 400;
